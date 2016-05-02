@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    padding: 2%;
+    font: 0.9em Open Sans, Arial, sans-serif;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+.floatLeftClass {
+    float: left;
+}
+#tweetMainContainer, #tweetSearchContainer {
+    width: 50%;
+    float: left;
+    min-width: 400px;
+}
+.tweetPagination p:first-child {
+    float: left;
+}
+.tweetPagination p:last-child {
+    float: right;
+}
+#tweetContent {
+    clear: left;
+}
+.tweetContainer, .tweetFollowersContainer {
+    border: 1px solid #eaeaea;
+    padding: 5px;
+    margin: 5px;
+}
+.tweetFollowersContainer {
+    padding: 10px;
+}
+.tweetNumber {
+    width: 7%;
+}
+.tweetContent {
+    width: 93%;
+}
+.twitterProfileImage {
+    padding-right: 5px;
+}
+.twitterName{
+    margin-right: 20px;
+    font-weight: bold;
+}
+.twitterHashtagName {
+    font-weight: bold;
+}
+.twitterText {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px;
+    background: #f8f8f8;
+}
+.twitterHashtags, .twitterRetweets {
+    clear: left;
+    width: 100%;
+    margin-top: 2px;
+}
+.twitterFollowers {
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 5px;
+    color: #3366ff;
+}
+#tweetSearchContainer fieldset {
+    margin: 22px;
+}
+
+#tweetersCountShows{
+    color: blue;
+    font-size: small;
+    
+}
